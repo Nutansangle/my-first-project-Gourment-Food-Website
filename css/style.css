@@ -1,0 +1,463 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 20px;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            letter-spacing: 4px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 500;
+            width: 100%;
+
+
+
+            /* height: 7vh; */
+
+        }
+
+        .navbar a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 8px 15px;
+            letter-spacing: 4px;
+        }
+
+        .logo {
+            padding: 7px 10px;
+        }
+
+        .logo:hover {
+            background-color: rgba(229, 220, 220, 0.817);
+            color: grey;
+
+        }
+
+        .navbar a:hover {
+            color: black;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+
+        .menu {
+            padding: 9px 27px;
+        }
+
+        .menu a:hover {
+            background-color: rgba(229, 220, 220, 0.817);
+            color: grey;
+
+            /* border: 1px solid red; */
+        }
+
+        .frstimg {
+           background-image: url(../img/hamburger.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            max-width: 100%;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            /* text खाली ठेवण्यासाठी */
+            padding: 20px;
+            overflow: hidden;
+
+        }
+
+        .frstimg h2 {
+            font-size: 36px;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            font-weight: 400;
+            /* margin: 10px 0; */
+            color: grey;
+        }
+
+
+
+
+
+        .aboutsec {
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .item img {
+            width: 30rem;
+            padding: 108px 60px;
+            opacity: 0.75;
+        }
+
+        #item-2 {
+
+            width: 500px;
+            padding: 108px 0px;
+        }
+
+        #item-2 h3 {
+            text-align: center;
+            margin: 30px 0px;
+            letter-spacing: 5px;
+        }
+
+        .para {
+            text-align: center;
+            letter-spacing: 5px;
+            padding: 17px 0px;
+        }
+
+        .para p {
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size: 18px;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+        .secondpara {
+            margin: 18px 0px;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .secondpara span {
+            padding: 4px 8px;
+            background-color: #f1f1f1;
+
+        }
+
+        .thirdpara {
+            color: #757575;
+            margin: 18px 0px;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        hr{
+            width: 80vw;
+            opacity: 0.1;
+            
+        }
+
+        .ourmenu {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+
+        .menusitem h1 {
+            text-align: center;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 18px 0px;
+        }
+
+        .menusitem h4 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 2.5;
+        }
+
+        .onepara {
+            margin: 10px 0px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #757575;
+            font-family: "Times New Roman", Georgia, Serif;
+        }
+
+        #menu-1 {
+            /* border: 2px solid red; */
+            padding: 12px 24px;
+
+        }
+
+
+        #menu-2 img {
+            width: 40vw;
+            height: 86%;
+            opacity: 0.75;
+        }
+
+
+        .contactinfo h1 {
+            font-weight: 400;
+            margin: 10px 0;
+            letter-spacing: 5px;
+            font-size: 36px;
+            padding: 33px 96px;
+        }
+
+        .contactpara {
+            padding: 7px 92px;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        b {
+            color: #607d8b;
+            font-size: 18px;
+            padding: 7px 92px;
+            line-height: 2.5;
+
+        }
+
+        .lstpara {
+            padding: 7px 92px;
+            font-family: "Times New Roman", Georgia, Serif;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .Name {
+            padding-top: 16px;
+        }
+
+        input {
+            padding: 8px;
+            display: block;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        textarea {
+            padding: 8px;
+            display: block;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            padding-left: 92px;
+            padding-right: 101px;
+        }
+
+        button {
+            background-color: #f1f1f1 !important;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            border: none;
+            padding: 13px 16px;
+            display: flex;
+            width: 12vw;
+            cursor: pointer;
+
+        }
+
+        .details {
+            padding-bottom: 64px;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            /* padding: 40px 0px; */
+            padding-top: 32px;
+            padding-bottom: 32px;
+            text-align: center;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+
+
+/* RESPONSIVE */
+
+/* 🔹 Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+    /* Navbar → vertical बनव */
+    .navbar {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .menu {
+        display: none;
+        padding: 10px 0;
+    }
+
+    /* About Section → flex column */
+    .aboutsec {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .item img {
+        width: 100%;
+        padding: 20px 0;
+        display: none;
+    }
+
+    #item-2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Our Menu → flex column */
+    .ourmenu {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #menu-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contact form full width */
+    form {
+        padding: 20px;
+    }
+    .contactinfo b{
+        font-size: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+/*  Extra Responsive Fix — very small devices (max-width: 400px) */
+@media (max-width: 400px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 8px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .frstimg {
+        height: 60vh;
+        background-position: center;
+    }
+
+    .frstimg h2 {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .aboutsec {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .item img {
+        width: 100%;
+        padding: 10px 0;
+        opacity: 0.9;
+    }
+
+    #item-2 {
+        padding: 10px;
+    }
+
+    #item-2 h3 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .para p, .secondpara, .thirdpara {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 1.4;
+    }
+
+    .ourmenu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menusitem h1 {
+        font-size: 22px;
+    }
+
+    .menusitem h4 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .onepara {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    #menu-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactinfo h1 {
+        font-size: 22px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contactpara, .lstpara, b {
+        padding: 10px;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    form {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+
